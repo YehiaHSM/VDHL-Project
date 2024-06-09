@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <header>
+    <!-- ISE source project file created by Project Navigator.             -->
+    <!--                                                                   -->
+    <!-- This file contains project source information including a list of -->
+    <!-- project source files, project and process properties.  This file, -->
+    <!-- along with the project source files, is sufficient to open and    -->
+    <!-- implement in ISE Project Navigator.                               -->
+    <!--                                                                   -->
+    <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+  </header>
+
+  <version xil_pn:ise_version="14.5" xil_pn:schema_version="2"/>
+
+  <files>
+    <file xil_pn:name="andgate.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ANDGateTest.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="17"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="17"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="17"/>
+    </file>
+    <file xil_pn:name="SL2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="Mux2.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ALU32.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="DFF.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="DFFtest.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="72"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="72"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="72"/>
+    </file>
+    <file xil_pn:name="flopr.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="77"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="Mypackage.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="92"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="FloprMainModule.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="97"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="Adder.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="108"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="Signext.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="119"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="regfile.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="130"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="MainModuleDataPath.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="131"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="MainDecoder.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="139"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="AluDecoder.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="150"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+    </file>
+    <file xil_pn:name="mips_processor.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="163"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="163"/>
+    </file>
+    <file xil_pn:name="controller.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="164"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="164"/>
+    </file>
+  </files>
+
+  <properties>
+    <property xil_pn:name="Auto Implementation Top" xil_pn:value="false" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Device" xil_pn:value="xc4vfx12" xil_pn:valueState="default"/>
+    <property xil_pn:name="Device Family" xil_pn:value="Virtex4" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|AluDecoder|Behavioral" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="AluDecoder.vhd" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/mips_processor/obj/obj1" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Package" xil_pn:value="sf363" xil_pn:valueState="default"/>
+    <property xil_pn:name="Preferred Language" xil_pn:value="VHDL" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store non-default values only" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/ANDGATETest" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.ANDGATETest" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Simulation Run Time ISim" xil_pn:value="10 us" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Simulator" xil_pn:value="ISim (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Speed Grade" xil_pn:value="-12" xil_pn:valueState="default"/>
+    <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Top-Level Source Type" xil_pn:value="HDL" xil_pn:valueState="default"/>
+    <property xil_pn:name="User Browsed Strategy Files" xil_pn:value="C:/Xilinx/14.5/ISE_DS/ISE/data/default.xds" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
+    <!--                                                                                  -->
+    <!-- The following properties are for internal use only. These should not be modified.-->
+    <!--                                                                                  -->
+    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Architecture|DFFtest|behavior" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_DesignName" xil_pn:value="lab1" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="virtex4" xil_pn:valueState="default"/>
+    <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2021-05-11T01:04:33" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="8BF4C7EC30ED449C94BFBBCE0D4112D7" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="Same" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="No" xil_pn:valueState="non-default"/>
+  </properties>
+
+  <bindings/>
+
+  <libraries/>
+
+  <autoManagedFiles>
+    <!-- The following files are identified by `include statements in verilog -->
+    <!-- source files and are automatically managed by Project Navigator.     -->
+    <!--                                                                      -->
+    <!-- Do not hand-edit this section, as it will be overwritten when the    -->
+    <!-- project is analyzed based on files automatically identified as       -->
+    <!-- include files.                                                       -->
+  </autoManagedFiles>
+
+</project>
